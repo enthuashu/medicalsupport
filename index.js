@@ -3,7 +3,7 @@ const connectDb = require("./Connection/Connection");
 const app = express();
 require("dotenv").config();
 const passport = require("passport");
-require("./config/passport")(passport);
+require("./Config/passport")(passport);
 require("dotenv").config();
 const registerRoute = require("./routes/register");
 
