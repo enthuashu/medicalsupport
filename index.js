@@ -6,6 +6,7 @@ const passport = require("passport");
 require("./Config/passport")(passport);
 require("dotenv").config();
 const registerRoute = require("./routes/register");
+const path = require("path");
 
 const cookies = require("cookie-parser");
 const { socketConnection } = require("./utils/socket");
